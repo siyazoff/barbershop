@@ -1,0 +1,251 @@
+@import url("../src/fonts/Oswald/stylesheet.css");
+@import url("../src/fonts/Roboto/stylesheet.css");
+
+$oswald: "Oswald";
+$roboto: "Roboto";
+
+$main: #d1a954;
+$black: #333333;
+$gray: #444;
+$green: #23a04d;
+$red: #ac2c43;
+$blue: #2c39ac;
+
+@mixin font-desc($size, $height, $weight) {
+  font-size: $size;
+  font-family: $roboto;
+  line-height: $height;
+  font-weight: $weight;
+}
+
+@mixin font-title($size, $height, $weight) {
+  font-size: $size;
+  font-family: $oswald;
+  line-height: $height;
+  font-weight: $weight;
+  text-transform: uppercase;
+}
+
+* {
+  font-family: $oswald;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none !important;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: $main;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      112.92deg,
+      rgba(255, 255, 255, 0.36) 10.45%,
+      rgba(255, 255, 255, 0.09) 88.73%
+    );
+  }
+}
+
+section,
+header,
+footer {
+  background-color: $black;
+}
+
+.cont {
+  width: 100%;
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background: transparent;
+}
+
+.navbar__wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hamb {
+  display: none;
+}
+
+.popup {
+  display: none;
+}
+
+.logo {
+  @include font-title(38px, normal, 700);
+  text-decoration: none;
+  text-transform: unset;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navbar__wrap .menu,
+.navbar__wrap .contacts {
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li > a {
+  text-decoration: none;
+}
+
+.navbar__wrap .menu {
+  display: flex;
+}
+
+.navbar__wrap .menu > li {
+  display: flex;
+  align-items: stretch;
+}
+
+.navbar__wrap .menu > li.mobile-li {
+  display: none;
+}
+
+.navbar__wrap .menu > li > a {
+  display: flex;
+  align-items: center;
+  @include font-title(28px, 28px, 500);
+  color: white;
+  padding: 0 12px;
+  transition: all 0.3s;
+}
+
+.navbar__wrap .menu > li > a:hover {
+  color: $main;
+  transition: all 0.3s;
+}
+
+.navbar__wrap .contacts {
+  display: flex;
+
+  & > li {
+    display: flex;
+    align-items: stretch;
+
+    & > a {
+      display: flex;
+      align-items: center;
+      @include font-title(20px, 28px, 500);
+      color: white;
+      transition: all 0.3s;
+      padding: 0 12px;
+
+      svg path {
+        transition: all 0.3s;
+      }
+
+      &:hover {
+        color: $main;
+        transition: all 0.3s;
+
+        svg path {
+          fill: $main;
+          transition: all 0.3s;
+        }
+      }
+    }
+  }
+}
