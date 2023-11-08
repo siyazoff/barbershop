@@ -1,4 +1,18 @@
 $(document).ready(function () {
+  let prevScrollPos = window.scrollY;
+  const $header = $("#header");
+
+  $(window).on("scroll", function () {
+    const currentScrollPos = window.scrollY;
+    $header.css(
+      "top",
+      prevScrollPos > currentScrollPos || currentScrollPos === 0
+        ? "0px"
+        : "-150px"
+    );
+    prevScrollPos = currentScrollPos;
+  });
+
   const hamb = document.querySelector("#hamb");
   const popup = document.querySelector("#popup");
   const body = document.body;

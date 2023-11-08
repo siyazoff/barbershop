@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     order: 2;
+    z-index: 200;
   }
   .logo {
     font-size: 24px;
@@ -21,6 +22,7 @@
     text-transform: uppercase;
     text-transform: none;
     color: white;
+    z-index: 200;
   }
   .hamb__field {
     padding: 4px 8px;
@@ -41,7 +43,7 @@
   }
   .popup {
     position: fixed;
-    top: 75px;
+    top: 0;
     left: -100%;
     width: 100%;
     height: 100%;
@@ -60,7 +62,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    padding: 50px 0;
+    padding: 100px 0 0 0;
     overflow: auto;
   }
   .popup .menu > li {
@@ -126,5 +128,88 @@
   }
   body.noscroll {
     overflow: hidden;
+  }
+  section {
+    overflow-x: hidden;
+  }
+  .custom-btn {
+    padding: 19px 50px;
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: 2px solid #d1a954;
+  }
+  .custom-btn:hover {
+    border: 2px solid white;
+  }
+  .home {
+    padding-bottom: 52px;
+    height: 730px;
+  }
+  .home .swiper-btn {
+    display: none;
+  }
+  .home .cont {
+    gap: 0;
+    flex-direction: column-reverse;
+    padding-inline: 15px;
+  }
+  .home .wrapper-left {
+    max-width: 325px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .home .wrapper-left h1 {
+    font-size: 20px;
+    font-family: "Oswald";
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #d1a954;
+    margin: 0;
+  }
+  .home .wrapper-left h2 {
+    font-size: 34px;
+    font-family: "Oswald";
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin: 20px 0;
+  }
+  .home .wrapper-right {
+    max-width: 195px;
+    margin-top: 330px;
+    margin-left: auto;
+    margin-bottom: 56px;
+  }
+  .home .wrapper-right h2 {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .home .wrapper-right h2 span {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d1a954;
+    margin-right: 12px;
+  }
+  .home .wrapper-right p {
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 18px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
   }
 }/*# sourceMappingURL=responsive.css.map */

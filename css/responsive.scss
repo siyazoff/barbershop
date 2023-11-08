@@ -40,12 +40,14 @@ $blue: #2c39ac;
     display: flex;
     align-items: center;
     order: 2;
+    z-index: 200;
   }
 
   .logo {
     @include font-title(24px, normal, 700);
     text-transform: none;
     color: white;
+    z-index: 200;
   }
 
   .hamb__field {
@@ -69,7 +71,7 @@ $blue: #2c39ac;
 
   .popup {
     position: fixed;
-    top: 75px;
+    top: 0;
     left: -100%;
     width: 100%;
     height: 100%;
@@ -90,7 +92,7 @@ $blue: #2c39ac;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    padding: 50px 0;
+    padding: 100px 0 0 0;
     overflow: auto;
   }
 
@@ -162,5 +164,78 @@ $blue: #2c39ac;
 
   body.noscroll {
     overflow: hidden;
+  }
+  section {
+    overflow-x: hidden;
+  }
+
+  .custom-btn {
+    padding: 19px 50px;
+    @include font-desc(14px, 3px, 700);
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: 2px solid $main;
+
+    &:hover {
+      border: 2px solid white;
+    }
+  }
+
+  .home {
+    padding-bottom: 52px;
+    height: 730px;
+
+    .swiper-btn {
+      display: none;
+    }
+
+    .cont {
+      gap: 0;
+      flex-direction: column-reverse;
+      padding-inline: 15px;
+    }
+
+    .wrapper-left {
+      max-width: 325px;
+      margin-top: 0;
+      margin-left: 0;
+
+      h1 {
+        @include font-title(20px, 20px, 500);
+        color: $main;
+        margin: 0;
+      }
+
+      h2 {
+        @include font-title(34px, 40px, 700);
+        color: white;
+        margin: 20px 0;
+      }
+    }
+
+    .wrapper-right {
+      max-width: 195px;
+      margin-top: 330px;
+      margin-left: auto;
+      margin-bottom: 56px;
+
+      h2 {
+        @include font-title(22px, 28px, 700);
+        color: white;
+        margin-bottom: 20px;
+
+        span {
+          @include font-title(22px, 28px, 700);
+          color: $main;
+          margin-right: 12px;
+        }
+      }
+
+      p {
+        @include font-desc(14px, 18px, 400);
+        color: white;
+        margin: 0;
+      }
+    }
   }
 }
