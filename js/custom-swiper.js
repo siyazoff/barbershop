@@ -14,3 +14,29 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".button-prev",
   },
 });
+
+const exampleSwiper = new Swiper(".examples-swiper", {
+  direction: "horizontal",
+  loop: false,
+  spacBetween: 0,
+  slidesPerView: 4,
+  navigation: {
+    nextEl: ".ex-btn-next",
+    prevEl: ".ex-btn-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+
+  breakpoints: {
+    328: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 0,
+    },
+  },
+});

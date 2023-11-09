@@ -166,7 +166,7 @@ $blue: #2c39ac;
     overflow: hidden;
   }
   section {
-    overflow-x: hidden;
+    // overflow-x: hidden;
   }
 
   .custom-btn {
@@ -237,5 +237,492 @@ $blue: #2c39ac;
         margin: 0;
       }
     }
+  }
+
+  .about {
+    padding: 50px 0;
+
+    .heading {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      h2 {
+        @include font-title(24px, 24px, 700);
+        color: white;
+        margin: 0;
+      }
+
+      p {
+        @include font-desc(14px, 18px, 400);
+        color: white;
+        max-width: 100%;
+      }
+    }
+
+    .wrapper-cards {
+      margin-top: 30px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      .wrapper-img {
+        max-width: 100%;
+        height: 289px;
+      }
+
+      .wrapper-order {
+        padding: 16px;
+        border: 2px solid $main;
+        max-width: 100%;
+        position: relative;
+        top: unset;
+        right: unset;
+        order: 3;
+
+        h2 {
+          margin-bottom: 16px;
+          @include font-title(24px, 24px, 700);
+          color: $black;
+        }
+
+        p {
+          margin-bottom: 0;
+          @include font-desc(17px, 25px, 400);
+          color: $black;
+        }
+
+        .custom-btn {
+          display: none;
+        }
+      }
+
+      .wrapper-counts {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 153px;
+        gap: 22px;
+        order: 2;
+        margin: 30px 0;
+        margin-left: auto;
+
+        h2 {
+          @include font-title(24px, 24px, 700);
+          color: white;
+
+          span {
+            @include font-title(24px, 24px, 700);
+            color: $main;
+          }
+        }
+      }
+    }
+  }
+
+  .services {
+    padding: 0 0 25px 0;
+
+    .heading {
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 30px;
+
+      h2 {
+        @include font-title(22px, 22px, 700);
+        color: white;
+
+        span {
+          @include font-title(22px, 22px, 700);
+          color: $main;
+        }
+      }
+
+      .tabby-ul {
+        padding: 17px;
+        border-radius: 2px;
+        gap: 10px;
+        justify-content: space-between;
+
+        li {
+          a {
+            padding: 11px 15px;
+            border-radius: 2px;
+            @include font-title(16px, 18px, 500);
+            color: $black;
+          }
+        }
+      }
+    }
+
+    .wrapper {
+      margin-top: 30px;
+
+      .item {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 14px;
+        padding: 20px 0;
+
+        .first {
+          order: 2;
+          h2 {
+            @include font-title(14px, 18px, 700);
+            color: white;
+          }
+        }
+
+        .second {
+          order: 3;
+          p {
+            @include font-desc(14px, 18px, 400);
+            color: white;
+          }
+
+          h3 {
+            @include font-title(14px, 18px, 400);
+            color: $main;
+            margin: 14px 0 0 0;
+          }
+        }
+
+        .third {
+          order: 1;
+
+          .img-wrapper {
+            max-width: 100%;
+            height: 156px;
+          }
+        }
+      }
+
+      .custom-btn {
+        max-width: 100%;
+        padding: 19px 42px;
+        margin-top: 30px;
+        @include font-desc(14px, 2px, 700);
+      }
+    }
+  }
+
+  .study {
+    padding: 25px 0;
+
+    .heading {
+      h2 {
+        @include font-title(22px, 22px, 700);
+        color: white;
+
+        span {
+          @include font-title(22px, 22px, 700);
+          color: $main;
+        }
+      }
+    }
+
+    .wrapper {
+      display: flex;
+      gap: 30px;
+      margin-top: 30px;
+      flex-direction: column;
+
+      .wrapper-video {
+        video {
+          max-width: 100%;
+          height: 329px;
+        }
+      }
+
+      .wrapper-two {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 100%;
+
+        .first {
+          padding: 16px;
+
+          h2 {
+            @include font-title(24px, 24px, 700);
+            color: white;
+            margin-bottom: 16px;
+          }
+
+          p {
+            @include font-desc(14px, 18px, 400);
+            color: white;
+            margin-bottom: 16px;
+          }
+
+          .custom-btn {
+            border: 2px solid white;
+            padding: 12px 50px;
+            @include font-desc(14px, 18px, 700);
+          }
+        }
+
+        .second {
+          h2 {
+            color: $black;
+          }
+
+          p {
+            color: $black;
+          }
+
+          .custom-btn {
+            background-color: $main;
+            border: 3px solid $main;
+
+            color: white;
+
+            &:hover {
+              background-color: #95783a;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .examples {
+    padding: 25px 0 50px;
+
+    .heading {
+      h2 {
+        @include font-title(22px, 22px, 700);
+        color: white;
+
+        span {
+          @include font-title(22px, 22px, 700);
+          color: $main;
+        }
+      }
+    }
+
+    .wrapper {
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+      .examples-swiper {
+        height: 231px;
+      }
+    }
+
+    .btn-cont {
+      position: relative;
+      gap: 11px;
+    }
+  }
+
+  .branches {
+    padding: 50px 0;
+
+    .heading {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      h2 {
+        @include font-title(22px, 22px, 700);
+        color: white;
+
+        span {
+          @include font-title(22px, 22px, 700);
+          color: $main;
+        }
+      }
+
+      .tabby-ul {
+        padding: 17px;
+        border-radius: 2px;
+        gap: 10px;
+        justify-content: space-between;
+
+        li {
+          a {
+            padding: 11px 15px;
+            border-radius: 2px;
+            @include font-title(16px, 18px, 500);
+            color: $black;
+          }
+        }
+      }
+    }
+
+    .wrapper {
+      margin-top: 30px;
+      flex-direction: column-reverse;
+      gap: 50px;
+
+      .left {
+        margin-top: 0;
+
+        h2 {
+          @include font-title(20px, 20px, 700);
+          color: white;
+          margin: 0;
+          margin-bottom: 33px;
+        }
+
+        h3 {
+          @include font-desc(14px, 14px, 400);
+          color: white;
+
+          svg {
+            width: 20px;
+          }
+
+          &:nth-child(1n) {
+            margin-bottom: 14px;
+          }
+        }
+
+        a {
+          @include font-desc(14px, 14px, 400);
+          color: white;
+          margin: 0;
+
+          svg {
+            width: 20px;
+          }
+
+          &.tel {
+            margin-bottom: 53px;
+          }
+        }
+      }
+
+      .right {
+        max-width: 100%;
+
+        iframe {
+          height: 249px;
+        }
+      }
+    }
+  }
+
+  footer {
+    padding: 100px 0 44px;
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0;
+      gap: 109px;
+
+      .first {
+        gap: 22px;
+
+        a {
+          @include font-title(16px, 16px, 500);
+          color: white;
+
+          &.mobile-href {
+            display: block;
+          }
+        }
+      }
+
+      .second {
+        .social-net {
+          display: flex;
+          gap: 16px;
+        }
+
+        h2 {
+          @include font-title(16px, 16px, 500);
+          color: white;
+
+          &.mobile-href {
+            display: block;
+          }
+        }
+
+        .desktop-href {
+          display: none;
+        }
+      }
+
+      .third {
+        display: none;
+      }
+    }
+
+    .line {
+      margin: 54px 0 26px;
+    }
+
+    .last {
+      display: flex;
+      flex-direction: column;
+      gap: 27px;
+
+      h2 {
+        @include font-title(45px, 45px, 700);
+        color: rgba(255, 255, 255, 0.35);
+        text-transform: unset;
+      }
+
+      .lastest {
+        h3,
+        a {
+          @include font-desc(16px, 16px, 400);
+          color: white;
+        }
+      }
+    }
+  }
+
+  .modal-body {
+    padding: 50px 16px !important;
+
+    .heading {
+      h2 {
+        @include font-title(34px, 34px, 700);
+        color: white;
+
+        span {
+          @include font-title(34px, 34px, 700);
+          color: $main;
+        }
+      }
+    }
+
+    form {
+      input {
+        @include font-desc(14px, 16px, 400);
+        color: $black;
+        margin-bottom: 20px;
+      }
+
+      textarea {
+        @include font-desc(14px, 16px, 400);
+        color: $black;
+      }
+
+      input.custom-btn {
+        background-color: $main;
+        margin-top: 30px;
+        border: none;
+        border-radius: 2px;
+        @include font-desc(14px, 14px, 700);
+        color: white;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .thx {
+    h1 {
+      @include font-title(34px, 36px, 700);
+      color: white;
+    }
+  }
+
+  .button-fix {
+    width: 80px;
+    height: 80px;
   }
 }

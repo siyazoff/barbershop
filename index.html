@@ -10,10 +10,21 @@
     <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <!-- cdn css  -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/cferdinandi/tabby@12.0.0/dist/css/tabby-ui.min.css"
+    />
 
     <title>AitmenBarbershop</title>
   </head>
   <body>
+    <a class="button-fix" data-toggle="modal" data-target="#modal">
+      <p>
+        Онлайн <br />
+        запись
+      </p>
+    </a>
     <!--! header starts -->
     <header class="header" id="header">
       <nav class="navbar">
@@ -155,6 +166,7 @@
     </header>
     <!--! header ends -->
 
+    <!-- !home starts -->
     <section class="home" id="home">
       <div class="swiper">
         <div class="swiper-wrapper">
@@ -206,7 +218,9 @@
         <div class="wrapper-left">
           <h1>Добро пожаловать в наш барбер</h1>
           <h2>Лучший барбершоп для вашего образа</h2>
-          <button class="custom-btn">Записаться</button>
+          <button data-toggle="modal" data-target="#modal" class="custom-btn">
+            Записаться
+          </button>
         </div>
         <div class="wrapper-right">
           <h2><span>01</span>Обучение -50%</h2>
@@ -217,11 +231,1318 @@
         </div>
       </div>
     </section>
+    <!-- !home ends -->
+
+    <!-- ! about starts  -->
+    <section class="about" id="about">
+      <div class="cont">
+        <div class="heading">
+          <h2>AITMEN BARBERSHOP</h2>
+          <p>
+            Как принято считать, стремящиеся вытеснить традиционное
+            производство, нанотехнологии лишь добавляют фракционных разногласий
+            и в равной степени предоставлены сами себе. Для современного мира
+            сложившаяся структура организации играет важную роль в формировании
+            своевременного выполнения сверхзадачи.
+          </p>
+        </div>
+        <div class="wrapper-cards">
+          <div class="wrapper-img">
+            <img src="src/img/how_we_work.jpeg" alt="how_we_work" />
+          </div>
+          <div class="wrapper-order">
+            <h2>Как мы работаем ?</h2>
+            <p>
+              Как уже неоднократно упомянуто, независимые государства являются
+              только методом политического участия и разоблачены.
+              <br />
+              <br />
+              Как уже неоднократно упомянуто, независимые государства являются
+              только методом политического участия и разоблачены.
+              <br />
+              <br />
+              Как уже неоднократно упомянуто, независимые государства являются
+              только методом политического участия и разоблачены.
+            </p>
+
+            <button class="custom-btn" data-toggle="modal" data-target="#modal">
+              Записаться
+            </button>
+          </div>
+
+          <div class="wrapper-counts">
+            <h2><span>500</span> клиентов</h2>
+            <h2><span>5</span> лет</h2>
+            <h2><span>30</span> наград</h2>
+            <h2><span>4</span> филиала</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! about ends  -->
+
+    <!-- ! services starts -->
+    <section class="services" id="services">
+      <div class="cont">
+        <div class="heading">
+          <h2><span>у</span>слуги</h2>
+          <ul class="tabby-ul" data-tabs>
+            <li><a data-tabby-default href="#hair">ВОЛОСЫ</a></li>
+            <li><a href="#beard">БОРОДА</a></li>
+            <li><a href="#care">УХОД</a></li>
+            <li><a href="#complex">КОМПЛЕКС</a></li>
+          </ul>
+        </div>
+        <div class="wrapper" id="hair">
+          <div class="item">
+            <div class="first">
+              <h2>• Стрижка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• папа + сын</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• Стрижка под насадку</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <button class="custom-btn load-more">показать еще</button>
+        </div>
+        <div class="wrapper" id="beard">
+          <div class="item">
+            <div class="first">
+              <h2>• Стрижка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• папа + сын</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• Стрижка под насадку</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <button class="custom-btn load-more">показать еще</button>
+        </div>
+        <div class="wrapper" id="care">
+          <div class="item">
+            <div class="first">
+              <h2>• Стрижка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• папа + сын</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• Стрижка под насадку</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <button class="custom-btn load-more">показать еще</button>
+        </div>
+        <div class="wrapper" id="complex">
+          <div class="item">
+            <div class="first">
+              <h2>• Стрижка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• папа + сын</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• Стрижка под насадку</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="first">
+              <h2>• окантовка</h2>
+            </div>
+            <div class="second">
+              <p>
+                Значимость этих проблем настолько очевидна, что внедрение
+                современных методик играет важную роль в формировании
+                благоприятных перспектив.
+              </p>
+              <h3>5 000 тг</h3>
+            </div>
+            <div class="third">
+              <div class="img-wrapper">
+                <img src="src/img/serv-1.png" alt="serv-1" />
+              </div>
+            </div>
+          </div>
+          <button class="custom-btn load-more">показать еще</button>
+        </div>
+      </div>
+    </section>
+    <!-- ! services ends -->
+
+    <!-- ! study starts  -->
+    <section class="study" id="study">
+      <div class="cont">
+        <div class="heading">
+          <h2><span>О</span>БУЧЕНИЕ</h2>
+        </div>
+        <div class="wrapper">
+          <div class="wrapper-video">
+            <video loop="" autoplay="" muted="" playsinline="" width="100%">
+              <source src="src/videos/video.mp4" type="video/mp4" />
+              <source src="src/videos/video.webm" type="video/webm" />
+              Ваш браузер не поддерживает встроенные видео :(
+            </video>
+          </div>
+          <div class="wrapper-two">
+            <div class="first">
+              <h2>ИНдивидуальное</h2>
+              <p>
+                Наше дело не так однозначно, как может показаться: реализация
+                намеченных плановых заданий представляет собой интересный
+                эксперимент проверки позиций.
+              </p>
+              <button
+                class="custom-btn"
+                data-toggle="modal"
+                data-target="#modal"
+              >
+                Записаться
+              </button>
+            </div>
+            <div class="first second">
+              <h2>В группе</h2>
+              <p>
+                Наше дело не так однозначно, как может показаться: реализация
+                намеченных плановых заданий представляет собой интересный
+                эксперимент проверки позиций.
+              </p>
+              <button
+                class="custom-btn"
+                data-toggle="modal"
+                data-target="#modal"
+              >
+                Записаться
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! study ends  -->
+
+    <!-- ! examples starts  -->
+    <section class="examples" id="examples">
+      <div class="cont">
+        <div class="heading">
+          <h2><span>р</span>аботы</h2>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="examples-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="src/img/examples-1.jpeg" alt="examples-1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="src/img/examples-2.jpeg" alt="examples-2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="src/img/examples-3.jpeg" alt="examples-3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="src/img/examples-4.jpeg" alt="examples-4" />
+            </div>
+            <div class="swiper-slide">
+              <img src="src/img/examples-1.jpeg" alt="examples-1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="src/img/examples-2.jpeg" alt="examples-2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="src/img/examples-3.jpeg" alt="examples-3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="src/img/examples-4.jpeg" alt="examples-4" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont btn-cont">
+        <div class="ex-btn-prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <path
+              d="M0.461552 10.4077H19.5385C19.7654 10.4077 19.9487 10.2244 19.9487 9.99745C19.9487 9.77052 19.7654 9.58719 19.5385 9.58719H1.45258L3.94232 7.09745C4.10258 6.93719 4.10258 6.67693 3.94232 6.51668C3.78206 6.35642 3.52181 6.35642 3.36155 6.51668L0.170527 9.7077C0.0525761 9.82565 0.0179615 10.0013 0.0820637 10.1551C0.146166 10.3077 0.296165 10.4077 0.461552 10.4077Z"
+              fill="white"
+            />
+            <path
+              d="M3.65647 13.6025C3.7616 13.6025 3.86673 13.5628 3.94621 13.482C4.10647 13.3218 4.10647 13.0615 3.94621 12.9012L0.751341 9.70637C0.591085 9.54612 0.33083 9.54612 0.170573 9.70637C0.0103168 9.86663 0.0103168 10.1269 0.170573 10.2871L3.36544 13.482C3.44621 13.5628 3.55134 13.6025 3.65647 13.6025Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="ex-btn-next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <path
+              d="M19.5384 10.4077H0.461526C0.234603 10.4077 0.0512695 10.2244 0.0512695 9.99745C0.0512695 9.77052 0.234603 9.58719 0.461526 9.58719H18.5474L16.0577 7.09745C15.8974 6.93719 15.8974 6.67693 16.0577 6.51668C16.2179 6.35642 16.4782 6.35642 16.6385 6.51668L19.8295 9.7077C19.9474 9.82565 19.982 10.0013 19.9179 10.1551C19.8538 10.3077 19.7038 10.4077 19.5384 10.4077Z"
+              fill="white"
+            />
+            <path
+              d="M16.3435 13.6025C16.2384 13.6025 16.1333 13.5628 16.0538 13.482C15.8935 13.3218 15.8935 13.0615 16.0538 12.9012L19.2487 9.70637C19.4089 9.54612 19.6692 9.54612 19.8294 9.70637C19.9897 9.86663 19.9897 10.1269 19.8294 10.2871L16.6346 13.482C16.5538 13.5628 16.4487 13.6025 16.3435 13.6025Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!-- ! examples ends -->
+
+    <!-- ! branches starts  -->
+    <section class="branches" id="branches">
+      <div class="cont">
+        <div class="heading">
+          <h2><span>Ф</span>илиалы</h2>
+          <ul class="tabby-ul" data-tabs-branches>
+            <li><a data-tabby-default href="#first">Первый</a></li>
+            <li><a href="#second">второй</a></li>
+            <li><a href="#third">третий</a></li>
+            <li><a href="#fourth">четвертый</a></li>
+          </ul>
+        </div>
+        <div class="wrapper" id="first">
+          <div class="left">
+            <h2>№ 1 Aitmenbarbershop</h2>
+            <h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="16"
+                viewBox="0 0 12 16"
+                fill="none"
+              >
+                <path
+                  d="M6 16C5.82124 16 5.64836 15.9381 5.5125 15.8255C5.2875 15.6364 0 11.1855 0 5.81818C0 4.2751 0.632141 2.79523 1.75736 1.70411C2.88258 0.612985 4.4087 0 6 0C7.5913 0 9.11742 0.612985 10.2426 1.70411C11.3679 2.79523 12 4.2751 12 5.81818C12 11.1855 6.75 15.6364 6.4875 15.8255C6.35164 15.9381 6.17876 16 6 16ZM6 1.45455C4.80653 1.45455 3.66193 1.91428 2.81802 2.73263C1.97411 3.55097 1.5 4.66087 1.5 5.81818C1.5 9.62182 4.74 13.0909 6 14.2764C7.26 13.0909 10.5 9.62182 10.5 5.81818C10.5 4.66087 10.0259 3.55097 9.18198 2.73263C8.33807 1.91428 7.19347 1.45455 6 1.45455ZM6 8.72727C5.40666 8.72727 4.82664 8.55666 4.33329 8.237C3.83994 7.91735 3.45542 7.46301 3.22836 6.93144C3.0013 6.39988 2.94189 5.81495 3.05764 5.25065C3.1734 4.68634 3.45912 4.16799 3.87868 3.76114C4.29824 3.3543 4.83279 3.07724 5.41473 2.96499C5.99667 2.85274 6.59987 2.91035 7.14805 3.13053C7.69623 3.35071 8.16476 3.72358 8.49441 4.20198C8.82405 4.68038 9 5.24282 9 5.81818C9 6.58972 8.68393 7.32966 8.12132 7.87522C7.55871 8.42078 6.79565 8.72727 6 8.72727ZM6 4.36364C5.70333 4.36364 5.41332 4.44894 5.16665 4.60877C4.91997 4.7686 4.72771 4.99577 4.61418 5.26155C4.50065 5.52734 4.47094 5.8198 4.52882 6.10195C4.5867 6.3841 4.72956 6.64328 4.93934 6.8467C5.14912 7.05012 5.41639 7.18865 5.70736 7.24478C5.99834 7.3009 6.29994 7.2721 6.57403 7.16201C6.84811 7.05192 7.08238 6.86548 7.2472 6.62628C7.41203 6.38709 7.5 6.10586 7.5 5.81818C7.5 5.43241 7.34196 5.06244 7.06066 4.78966C6.77936 4.51688 6.39782 4.36364 6 4.36364Z"
+                  fill="white"
+                />
+              </svg>
+              Казахстан, г.Астана, Ф. Онгарсынова 6
+            </h3>
+            <a class="tel" target="_blank" href="tel:+7 775 641 5645">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M16.552 14.3044L16.6225 14.2335L16.552 14.3044C16.839 14.5894 16.8356 15.0407 16.5598 15.3146C15.07 16.7943 12.6984 17.2717 10.9129 16.0514C8.19345 14.1929 6.07341 12.059 3.99238 9.08569C2.77448 7.34558 3.08443 4.97747 4.62878 3.44358C4.89787 3.1763 5.34475 3.17297 5.62483 3.45115L7.42547 5.23961C7.70236 5.51464 7.71007 5.94697 7.45776 6.22417L7.53171 6.29148L7.45776 6.22417L6.67376 7.08551C6.08572 7.73157 5.95795 8.70183 6.43229 9.47671L6.51758 9.4245L6.43229 9.47672C7.54978 11.3022 8.6359 12.3902 10.5012 13.5179C11.277 13.987 12.2484 13.8618 12.8975 13.279L13.7648 12.5002L13.698 12.4258L13.7648 12.5002C14.0467 12.247 14.489 12.2554 14.7679 12.5323L16.552 14.3044ZM7.6676 7.98913L7.66761 7.98913L8.4516 7.12774C9.19416 6.31196 9.15263 5.06193 8.37258 4.28715L6.57192 2.49869C5.77477 1.70694 4.48171 1.69651 3.68169 2.49111C1.72365 4.4359 1.2602 7.52475 2.89143 9.85537C5.05582 12.9478 7.28837 15.2011 10.1545 17.1598C12.4864 18.7535 15.5385 18.2221 17.4608 16.3128L17.3903 16.2418L17.4608 16.3128C18.2749 15.5041 18.337 14.1841 17.4991 13.3519L17.4287 13.4229L17.4991 13.3519L15.715 11.5799C14.9369 10.807 13.6853 10.7664 12.8668 11.5014L11.9995 12.2802C11.7691 12.4871 11.4417 12.5172 11.1966 12.369C9.51574 11.3528 8.58398 10.4186 7.57837 8.77592C7.43171 8.53629 7.46047 8.2167 7.6676 7.98913Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+              </svg>
+              +7 775 641 5645
+            </a>
+            <h2>ГРафик работы:</h2>
+            <h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+              >
+                <path
+                  d="M8.99986 0.9C4.53383 0.9 0.9 4.53347 0.9 9C0.9 13.4665 4.53383 17.1 8.99986 17.1C13.4667 17.1 17.1 13.4665 17.1 9C17.1 4.53348 13.4667 0.9 8.99986 0.9ZM8.99986 15.8334C5.23207 15.8334 2.16663 12.768 2.16663 9C2.16663 5.23199 5.23235 2.16661 8.99986 2.16661C12.7682 2.16661 15.8334 5.23199 15.8334 9C15.8334 12.768 12.7685 15.8334 8.99986 15.8334Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+                <path
+                  d="M13.5949 8.95396C13.5952 9.30393 13.3115 9.58722 12.962 9.58722H8.46729H8.36729V9.48722V3.88745C8.36729 3.53801 8.6508 3.254 9.00017 3.254C9.34975 3.254 9.63334 3.53765 9.63334 3.88745V8.3209H12.962C13.311 8.3209 13.5948 8.60446 13.5949 8.95396ZM13.5949 8.95396C13.5949 8.954 13.5949 8.95403 13.5949 8.95406H13.4949L13.5949 8.95396Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+              </svg>
+              с 10:00 до 22:00 во всех филиалах
+            </h3>
+            <a class="back" href="#home"
+              >Вернуться назад
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M9.1035 2.33068L9.1035 17.6701C9.1035 17.8526 9.28159 18 9.50202 18C9.72246 18 9.90055 17.8526 9.90055 17.6701L9.90055 3.12755L12.3191 5.12951C12.4748 5.25837 12.7276 5.25837 12.8832 5.12951C13.0389 5.00065 13.0389 4.79138 12.8832 4.66252L9.78348 2.09667C9.6689 2.00183 9.49829 1.974 9.34884 2.02554C9.20064 2.07709 9.1035 2.1977 9.1035 2.33068Z"
+                  fill="white"
+                />
+                <path
+                  d="M6.00013 4.89962C6.00013 4.98416 6.03874 5.06869 6.1172 5.1326C6.27287 5.26146 6.52568 5.26146 6.68136 5.1326L9.78486 2.56366C9.94053 2.4348 9.94053 2.22553 9.78486 2.09667C9.62918 1.96781 9.37637 1.96781 9.2207 2.09667L6.1172 4.66562C6.03874 4.73056 6.00013 4.81509 6.00013 4.89962Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="right">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A677d262d2261df33ff283becbb3475ccfde5dd1b4c22ccf6836cc71467133b37&amp;source=constructor"
+              width="812"
+              height="524"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+        <div class="wrapper" id="second">
+          <div class="left">
+            <h2>№ 2 Aitmenbarbershop</h2>
+            <h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="16"
+                viewBox="0 0 12 16"
+                fill="none"
+              >
+                <path
+                  d="M6 16C5.82124 16 5.64836 15.9381 5.5125 15.8255C5.2875 15.6364 0 11.1855 0 5.81818C0 4.2751 0.632141 2.79523 1.75736 1.70411C2.88258 0.612985 4.4087 0 6 0C7.5913 0 9.11742 0.612985 10.2426 1.70411C11.3679 2.79523 12 4.2751 12 5.81818C12 11.1855 6.75 15.6364 6.4875 15.8255C6.35164 15.9381 6.17876 16 6 16ZM6 1.45455C4.80653 1.45455 3.66193 1.91428 2.81802 2.73263C1.97411 3.55097 1.5 4.66087 1.5 5.81818C1.5 9.62182 4.74 13.0909 6 14.2764C7.26 13.0909 10.5 9.62182 10.5 5.81818C10.5 4.66087 10.0259 3.55097 9.18198 2.73263C8.33807 1.91428 7.19347 1.45455 6 1.45455ZM6 8.72727C5.40666 8.72727 4.82664 8.55666 4.33329 8.237C3.83994 7.91735 3.45542 7.46301 3.22836 6.93144C3.0013 6.39988 2.94189 5.81495 3.05764 5.25065C3.1734 4.68634 3.45912 4.16799 3.87868 3.76114C4.29824 3.3543 4.83279 3.07724 5.41473 2.96499C5.99667 2.85274 6.59987 2.91035 7.14805 3.13053C7.69623 3.35071 8.16476 3.72358 8.49441 4.20198C8.82405 4.68038 9 5.24282 9 5.81818C9 6.58972 8.68393 7.32966 8.12132 7.87522C7.55871 8.42078 6.79565 8.72727 6 8.72727ZM6 4.36364C5.70333 4.36364 5.41332 4.44894 5.16665 4.60877C4.91997 4.7686 4.72771 4.99577 4.61418 5.26155C4.50065 5.52734 4.47094 5.8198 4.52882 6.10195C4.5867 6.3841 4.72956 6.64328 4.93934 6.8467C5.14912 7.05012 5.41639 7.18865 5.70736 7.24478C5.99834 7.3009 6.29994 7.2721 6.57403 7.16201C6.84811 7.05192 7.08238 6.86548 7.2472 6.62628C7.41203 6.38709 7.5 6.10586 7.5 5.81818C7.5 5.43241 7.34196 5.06244 7.06066 4.78966C6.77936 4.51688 6.39782 4.36364 6 4.36364Z"
+                  fill="white"
+                />
+              </svg>
+              Казахстан, г.Астана, Бухар Жырау 36А
+            </h3>
+            <a class="tel" target="_blank" href="tel:+7 775 641 5645">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M16.552 14.3044L16.6225 14.2335L16.552 14.3044C16.839 14.5894 16.8356 15.0407 16.5598 15.3146C15.07 16.7943 12.6984 17.2717 10.9129 16.0514C8.19345 14.1929 6.07341 12.059 3.99238 9.08569C2.77448 7.34558 3.08443 4.97747 4.62878 3.44358C4.89787 3.1763 5.34475 3.17297 5.62483 3.45115L7.42547 5.23961C7.70236 5.51464 7.71007 5.94697 7.45776 6.22417L7.53171 6.29148L7.45776 6.22417L6.67376 7.08551C6.08572 7.73157 5.95795 8.70183 6.43229 9.47671L6.51758 9.4245L6.43229 9.47672C7.54978 11.3022 8.6359 12.3902 10.5012 13.5179C11.277 13.987 12.2484 13.8618 12.8975 13.279L13.7648 12.5002L13.698 12.4258L13.7648 12.5002C14.0467 12.247 14.489 12.2554 14.7679 12.5323L16.552 14.3044ZM7.6676 7.98913L7.66761 7.98913L8.4516 7.12774C9.19416 6.31196 9.15263 5.06193 8.37258 4.28715L6.57192 2.49869C5.77477 1.70694 4.48171 1.69651 3.68169 2.49111C1.72365 4.4359 1.2602 7.52475 2.89143 9.85537C5.05582 12.9478 7.28837 15.2011 10.1545 17.1598C12.4864 18.7535 15.5385 18.2221 17.4608 16.3128L17.3903 16.2418L17.4608 16.3128C18.2749 15.5041 18.337 14.1841 17.4991 13.3519L17.4287 13.4229L17.4991 13.3519L15.715 11.5799C14.9369 10.807 13.6853 10.7664 12.8668 11.5014L11.9995 12.2802C11.7691 12.4871 11.4417 12.5172 11.1966 12.369C9.51574 11.3528 8.58398 10.4186 7.57837 8.77592C7.43171 8.53629 7.46047 8.2167 7.6676 7.98913Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+              </svg>
+              +7 775 641 5645
+            </a>
+            <h2>ГРафик работы:</h2>
+            <h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+              >
+                <path
+                  d="M8.99986 0.9C4.53383 0.9 0.9 4.53347 0.9 9C0.9 13.4665 4.53383 17.1 8.99986 17.1C13.4667 17.1 17.1 13.4665 17.1 9C17.1 4.53348 13.4667 0.9 8.99986 0.9ZM8.99986 15.8334C5.23207 15.8334 2.16663 12.768 2.16663 9C2.16663 5.23199 5.23235 2.16661 8.99986 2.16661C12.7682 2.16661 15.8334 5.23199 15.8334 9C15.8334 12.768 12.7685 15.8334 8.99986 15.8334Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+                <path
+                  d="M13.5949 8.95396C13.5952 9.30393 13.3115 9.58722 12.962 9.58722H8.46729H8.36729V9.48722V3.88745C8.36729 3.53801 8.6508 3.254 9.00017 3.254C9.34975 3.254 9.63334 3.53765 9.63334 3.88745V8.3209H12.962C13.311 8.3209 13.5948 8.60446 13.5949 8.95396ZM13.5949 8.95396C13.5949 8.954 13.5949 8.95403 13.5949 8.95406H13.4949L13.5949 8.95396Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+              </svg>
+              с 10:00 до 22:00 во всех филиалах
+            </h3>
+            <a class="back" href="#home"
+              >Вернуться назад
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M9.1035 2.33068L9.1035 17.6701C9.1035 17.8526 9.28159 18 9.50202 18C9.72246 18 9.90055 17.8526 9.90055 17.6701L9.90055 3.12755L12.3191 5.12951C12.4748 5.25837 12.7276 5.25837 12.8832 5.12951C13.0389 5.00065 13.0389 4.79138 12.8832 4.66252L9.78348 2.09667C9.6689 2.00183 9.49829 1.974 9.34884 2.02554C9.20064 2.07709 9.1035 2.1977 9.1035 2.33068Z"
+                  fill="white"
+                />
+                <path
+                  d="M6.00013 4.89962C6.00013 4.98416 6.03874 5.06869 6.1172 5.1326C6.27287 5.26146 6.52568 5.26146 6.68136 5.1326L9.78486 2.56366C9.94053 2.4348 9.94053 2.22553 9.78486 2.09667C9.62918 1.96781 9.37637 1.96781 9.2207 2.09667L6.1172 4.66562C6.03874 4.73056 6.00013 4.81509 6.00013 4.89962Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="right">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A5f09ea220b2788546eba439ec91b62b64a9bc8e3f1faa535f364199f77dd17ec&amp;source=constructor"
+              width="812"
+              height="524"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+        <div class="wrapper" id="third">
+          <div class="left">
+            <h2>№ 3 Aitmenbarbershop</h2>
+            <h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="16"
+                viewBox="0 0 12 16"
+                fill="none"
+              >
+                <path
+                  d="M6 16C5.82124 16 5.64836 15.9381 5.5125 15.8255C5.2875 15.6364 0 11.1855 0 5.81818C0 4.2751 0.632141 2.79523 1.75736 1.70411C2.88258 0.612985 4.4087 0 6 0C7.5913 0 9.11742 0.612985 10.2426 1.70411C11.3679 2.79523 12 4.2751 12 5.81818C12 11.1855 6.75 15.6364 6.4875 15.8255C6.35164 15.9381 6.17876 16 6 16ZM6 1.45455C4.80653 1.45455 3.66193 1.91428 2.81802 2.73263C1.97411 3.55097 1.5 4.66087 1.5 5.81818C1.5 9.62182 4.74 13.0909 6 14.2764C7.26 13.0909 10.5 9.62182 10.5 5.81818C10.5 4.66087 10.0259 3.55097 9.18198 2.73263C8.33807 1.91428 7.19347 1.45455 6 1.45455ZM6 8.72727C5.40666 8.72727 4.82664 8.55666 4.33329 8.237C3.83994 7.91735 3.45542 7.46301 3.22836 6.93144C3.0013 6.39988 2.94189 5.81495 3.05764 5.25065C3.1734 4.68634 3.45912 4.16799 3.87868 3.76114C4.29824 3.3543 4.83279 3.07724 5.41473 2.96499C5.99667 2.85274 6.59987 2.91035 7.14805 3.13053C7.69623 3.35071 8.16476 3.72358 8.49441 4.20198C8.82405 4.68038 9 5.24282 9 5.81818C9 6.58972 8.68393 7.32966 8.12132 7.87522C7.55871 8.42078 6.79565 8.72727 6 8.72727ZM6 4.36364C5.70333 4.36364 5.41332 4.44894 5.16665 4.60877C4.91997 4.7686 4.72771 4.99577 4.61418 5.26155C4.50065 5.52734 4.47094 5.8198 4.52882 6.10195C4.5867 6.3841 4.72956 6.64328 4.93934 6.8467C5.14912 7.05012 5.41639 7.18865 5.70736 7.24478C5.99834 7.3009 6.29994 7.2721 6.57403 7.16201C6.84811 7.05192 7.08238 6.86548 7.2472 6.62628C7.41203 6.38709 7.5 6.10586 7.5 5.81818C7.5 5.43241 7.34196 5.06244 7.06066 4.78966C6.77936 4.51688 6.39782 4.36364 6 4.36364Z"
+                  fill="white"
+                />
+              </svg>
+              Казахстан, г.Астана, И. Омарова 25
+            </h3>
+            <a class="tel" target="_blank" href="tel:+7 775 641 5645">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M16.552 14.3044L16.6225 14.2335L16.552 14.3044C16.839 14.5894 16.8356 15.0407 16.5598 15.3146C15.07 16.7943 12.6984 17.2717 10.9129 16.0514C8.19345 14.1929 6.07341 12.059 3.99238 9.08569C2.77448 7.34558 3.08443 4.97747 4.62878 3.44358C4.89787 3.1763 5.34475 3.17297 5.62483 3.45115L7.42547 5.23961C7.70236 5.51464 7.71007 5.94697 7.45776 6.22417L7.53171 6.29148L7.45776 6.22417L6.67376 7.08551C6.08572 7.73157 5.95795 8.70183 6.43229 9.47671L6.51758 9.4245L6.43229 9.47672C7.54978 11.3022 8.6359 12.3902 10.5012 13.5179C11.277 13.987 12.2484 13.8618 12.8975 13.279L13.7648 12.5002L13.698 12.4258L13.7648 12.5002C14.0467 12.247 14.489 12.2554 14.7679 12.5323L16.552 14.3044ZM7.6676 7.98913L7.66761 7.98913L8.4516 7.12774C9.19416 6.31196 9.15263 5.06193 8.37258 4.28715L6.57192 2.49869C5.77477 1.70694 4.48171 1.69651 3.68169 2.49111C1.72365 4.4359 1.2602 7.52475 2.89143 9.85537C5.05582 12.9478 7.28837 15.2011 10.1545 17.1598C12.4864 18.7535 15.5385 18.2221 17.4608 16.3128L17.3903 16.2418L17.4608 16.3128C18.2749 15.5041 18.337 14.1841 17.4991 13.3519L17.4287 13.4229L17.4991 13.3519L15.715 11.5799C14.9369 10.807 13.6853 10.7664 12.8668 11.5014L11.9995 12.2802C11.7691 12.4871 11.4417 12.5172 11.1966 12.369C9.51574 11.3528 8.58398 10.4186 7.57837 8.77592C7.43171 8.53629 7.46047 8.2167 7.6676 7.98913Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+              </svg>
+              +7 775 641 5645
+            </a>
+            <h2>ГРафик работы:</h2>
+            <h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+              >
+                <path
+                  d="M8.99986 0.9C4.53383 0.9 0.9 4.53347 0.9 9C0.9 13.4665 4.53383 17.1 8.99986 17.1C13.4667 17.1 17.1 13.4665 17.1 9C17.1 4.53348 13.4667 0.9 8.99986 0.9ZM8.99986 15.8334C5.23207 15.8334 2.16663 12.768 2.16663 9C2.16663 5.23199 5.23235 2.16661 8.99986 2.16661C12.7682 2.16661 15.8334 5.23199 15.8334 9C15.8334 12.768 12.7685 15.8334 8.99986 15.8334Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+                <path
+                  d="M13.5949 8.95396C13.5952 9.30393 13.3115 9.58722 12.962 9.58722H8.46729H8.36729V9.48722V3.88745C8.36729 3.53801 8.6508 3.254 9.00017 3.254C9.34975 3.254 9.63334 3.53765 9.63334 3.88745V8.3209H12.962C13.311 8.3209 13.5948 8.60446 13.5949 8.95396ZM13.5949 8.95396C13.5949 8.954 13.5949 8.95403 13.5949 8.95406H13.4949L13.5949 8.95396Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+              </svg>
+              с 10:00 до 22:00 во всех филиалах
+            </h3>
+            <a class="back" href="#home"
+              >Вернуться назад
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M9.1035 2.33068L9.1035 17.6701C9.1035 17.8526 9.28159 18 9.50202 18C9.72246 18 9.90055 17.8526 9.90055 17.6701L9.90055 3.12755L12.3191 5.12951C12.4748 5.25837 12.7276 5.25837 12.8832 5.12951C13.0389 5.00065 13.0389 4.79138 12.8832 4.66252L9.78348 2.09667C9.6689 2.00183 9.49829 1.974 9.34884 2.02554C9.20064 2.07709 9.1035 2.1977 9.1035 2.33068Z"
+                  fill="white"
+                />
+                <path
+                  d="M6.00013 4.89962C6.00013 4.98416 6.03874 5.06869 6.1172 5.1326C6.27287 5.26146 6.52568 5.26146 6.68136 5.1326L9.78486 2.56366C9.94053 2.4348 9.94053 2.22553 9.78486 2.09667C9.62918 1.96781 9.37637 1.96781 9.2207 2.09667L6.1172 4.66562C6.03874 4.73056 6.00013 4.81509 6.00013 4.89962Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="right">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac9d8cdb7d5879d275596c3395ed1db5e8c48daf68b4bb2a982b0b5a973f68364&amp;source=constructor"
+              width="812"
+              height="524"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+        <div class="wrapper" id="fourth">
+          <div class="left">
+            <h2>№ 4 Aitmenbarbershop</h2>
+            <h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="16"
+                viewBox="0 0 12 16"
+                fill="none"
+              >
+                <path
+                  d="M6 16C5.82124 16 5.64836 15.9381 5.5125 15.8255C5.2875 15.6364 0 11.1855 0 5.81818C0 4.2751 0.632141 2.79523 1.75736 1.70411C2.88258 0.612985 4.4087 0 6 0C7.5913 0 9.11742 0.612985 10.2426 1.70411C11.3679 2.79523 12 4.2751 12 5.81818C12 11.1855 6.75 15.6364 6.4875 15.8255C6.35164 15.9381 6.17876 16 6 16ZM6 1.45455C4.80653 1.45455 3.66193 1.91428 2.81802 2.73263C1.97411 3.55097 1.5 4.66087 1.5 5.81818C1.5 9.62182 4.74 13.0909 6 14.2764C7.26 13.0909 10.5 9.62182 10.5 5.81818C10.5 4.66087 10.0259 3.55097 9.18198 2.73263C8.33807 1.91428 7.19347 1.45455 6 1.45455ZM6 8.72727C5.40666 8.72727 4.82664 8.55666 4.33329 8.237C3.83994 7.91735 3.45542 7.46301 3.22836 6.93144C3.0013 6.39988 2.94189 5.81495 3.05764 5.25065C3.1734 4.68634 3.45912 4.16799 3.87868 3.76114C4.29824 3.3543 4.83279 3.07724 5.41473 2.96499C5.99667 2.85274 6.59987 2.91035 7.14805 3.13053C7.69623 3.35071 8.16476 3.72358 8.49441 4.20198C8.82405 4.68038 9 5.24282 9 5.81818C9 6.58972 8.68393 7.32966 8.12132 7.87522C7.55871 8.42078 6.79565 8.72727 6 8.72727ZM6 4.36364C5.70333 4.36364 5.41332 4.44894 5.16665 4.60877C4.91997 4.7686 4.72771 4.99577 4.61418 5.26155C4.50065 5.52734 4.47094 5.8198 4.52882 6.10195C4.5867 6.3841 4.72956 6.64328 4.93934 6.8467C5.14912 7.05012 5.41639 7.18865 5.70736 7.24478C5.99834 7.3009 6.29994 7.2721 6.57403 7.16201C6.84811 7.05192 7.08238 6.86548 7.2472 6.62628C7.41203 6.38709 7.5 6.10586 7.5 5.81818C7.5 5.43241 7.34196 5.06244 7.06066 4.78966C6.77936 4.51688 6.39782 4.36364 6 4.36364Z"
+                  fill="white"
+                />
+              </svg>
+              Казахстан, г.Астана, К. Рыскулбеков 29
+            </h3>
+            <a class="tel" target="_blank" href="tel:+7 775 641 5645">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M16.552 14.3044L16.6225 14.2335L16.552 14.3044C16.839 14.5894 16.8356 15.0407 16.5598 15.3146C15.07 16.7943 12.6984 17.2717 10.9129 16.0514C8.19345 14.1929 6.07341 12.059 3.99238 9.08569C2.77448 7.34558 3.08443 4.97747 4.62878 3.44358C4.89787 3.1763 5.34475 3.17297 5.62483 3.45115L7.42547 5.23961C7.70236 5.51464 7.71007 5.94697 7.45776 6.22417L7.53171 6.29148L7.45776 6.22417L6.67376 7.08551C6.08572 7.73157 5.95795 8.70183 6.43229 9.47671L6.51758 9.4245L6.43229 9.47672C7.54978 11.3022 8.6359 12.3902 10.5012 13.5179C11.277 13.987 12.2484 13.8618 12.8975 13.279L13.7648 12.5002L13.698 12.4258L13.7648 12.5002C14.0467 12.247 14.489 12.2554 14.7679 12.5323L16.552 14.3044ZM7.6676 7.98913L7.66761 7.98913L8.4516 7.12774C9.19416 6.31196 9.15263 5.06193 8.37258 4.28715L6.57192 2.49869C5.77477 1.70694 4.48171 1.69651 3.68169 2.49111C1.72365 4.4359 1.2602 7.52475 2.89143 9.85537C5.05582 12.9478 7.28837 15.2011 10.1545 17.1598C12.4864 18.7535 15.5385 18.2221 17.4608 16.3128L17.3903 16.2418L17.4608 16.3128C18.2749 15.5041 18.337 14.1841 17.4991 13.3519L17.4287 13.4229L17.4991 13.3519L15.715 11.5799C14.9369 10.807 13.6853 10.7664 12.8668 11.5014L11.9995 12.2802C11.7691 12.4871 11.4417 12.5172 11.1966 12.369C9.51574 11.3528 8.58398 10.4186 7.57837 8.77592C7.43171 8.53629 7.46047 8.2167 7.6676 7.98913Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+              </svg>
+              +7 775 641 5645
+            </a>
+            <h2>ГРафик работы:</h2>
+            <h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+              >
+                <path
+                  d="M8.99986 0.9C4.53383 0.9 0.9 4.53347 0.9 9C0.9 13.4665 4.53383 17.1 8.99986 17.1C13.4667 17.1 17.1 13.4665 17.1 9C17.1 4.53348 13.4667 0.9 8.99986 0.9ZM8.99986 15.8334C5.23207 15.8334 2.16663 12.768 2.16663 9C2.16663 5.23199 5.23235 2.16661 8.99986 2.16661C12.7682 2.16661 15.8334 5.23199 15.8334 9C15.8334 12.768 12.7685 15.8334 8.99986 15.8334Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+                <path
+                  d="M13.5949 8.95396C13.5952 9.30393 13.3115 9.58722 12.962 9.58722H8.46729H8.36729V9.48722V3.88745C8.36729 3.53801 8.6508 3.254 9.00017 3.254C9.34975 3.254 9.63334 3.53765 9.63334 3.88745V8.3209H12.962C13.311 8.3209 13.5948 8.60446 13.5949 8.95396ZM13.5949 8.95396C13.5949 8.954 13.5949 8.95403 13.5949 8.95406H13.4949L13.5949 8.95396Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="0.2"
+                />
+              </svg>
+              с 10:00 до 22:00 во всех филиалах
+            </h3>
+            <a class="back" href="#home"
+              >Вернуться назад
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M9.1035 2.33068L9.1035 17.6701C9.1035 17.8526 9.28159 18 9.50202 18C9.72246 18 9.90055 17.8526 9.90055 17.6701L9.90055 3.12755L12.3191 5.12951C12.4748 5.25837 12.7276 5.25837 12.8832 5.12951C13.0389 5.00065 13.0389 4.79138 12.8832 4.66252L9.78348 2.09667C9.6689 2.00183 9.49829 1.974 9.34884 2.02554C9.20064 2.07709 9.1035 2.1977 9.1035 2.33068Z"
+                  fill="white"
+                />
+                <path
+                  d="M6.00013 4.89962C6.00013 4.98416 6.03874 5.06869 6.1172 5.1326C6.27287 5.26146 6.52568 5.26146 6.68136 5.1326L9.78486 2.56366C9.94053 2.4348 9.94053 2.22553 9.78486 2.09667C9.62918 1.96781 9.37637 1.96781 9.2207 2.09667L6.1172 4.66562C6.03874 4.73056 6.00013 4.81509 6.00013 4.89962Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="right">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A2c1cb953c76098e2f84bc1a9f8224cddac6a76adc17363a3f5330dd549dc584c&amp;source=constructor"
+              width="812"
+              height="524"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! branches ends -->
+
+    <!-- ! footer starts  -->
+    <footer class="footer" id="footer">
+      <div class="cont">
+        <div class="wrapper">
+          <div class="first">
+            <a href="#about">О нас</a>
+            <a href="#branches">Филиалы</a>
+            <a href="#study">Обучение</a>
+            <a class="mobile-href" href="#services">Наши услуги</a>
+            <a class="mobile-href" href="#examples">Работы</a>
+          </div>
+          <div class="first second">
+            <a class="desktop-href" href="#services">Наши услуги</a>
+            <a class="desktop-href" href="#examples">Работы</a>
+            <h2 class="mobile-href">ГРафик работы:</h2>
+            <h2 class="mobile-href">с 10:00 до 22:00</h2>
+            <h2 class="mobile-href">во всех филиалах</h2>
+
+            <div class="social-net">
+              <a target="_blank" href="https://www.instagram.com">
+                <!-- ! inst   -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <path
+                    d="M12.842 0.447266H5.15779C2.53937 0.447266 0.447266 2.53937 0.447266 5.15779V12.8552C0.447266 15.4604 2.53937 17.5657 5.15779 17.5657H12.8552C15.4604 17.5657 17.5657 15.4736 17.5657 12.8552V5.15779C17.5525 2.53937 15.4604 0.447266 12.842 0.447266ZM16.0525 12.1709C16.0525 14.3025 14.3157 16.0657 12.1578 16.0657H5.842C3.71042 16.0657 1.94727 14.3288 1.94727 12.1709V5.842C1.94727 3.71042 3.68411 1.94727 5.842 1.94727H12.1973C14.3288 1.94727 16.092 3.68411 16.092 5.842V12.1709H16.0525Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M12.1183 5.92096L12.0788 5.88149L12.0393 5.84202C11.2235 5.02623 10.1314 4.57886 8.99983 4.57886C6.57878 4.59202 4.61826 6.57886 4.63141 8.99991C4.63141 10.171 5.1051 11.2894 5.92089 12.1183C6.73668 12.9473 7.84194 13.4078 8.99983 13.4078C11.434 13.3683 13.3814 11.3289 13.3419 8.86833C13.3156 7.77623 12.8946 6.71044 12.1183 5.92096ZM8.99983 11.9078C7.39457 11.9341 6.09194 10.6446 6.06562 9.03938C6.03931 7.43412 7.32878 6.13149 8.93405 6.10517C10.5393 6.07886 11.8419 7.36833 11.8683 8.9736V9.01307C11.8683 10.5789 10.5788 11.8815 8.99983 11.9078Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M14.6447 4.38149C14.6447 4.96044 14.1974 5.43412 13.6184 5.43412C13.3421 5.43412 13.079 5.32886 12.8947 5.13149C12.4869 4.72359 12.4869 4.03938 12.9211 3.63149C13.1184 3.43412 13.3684 3.32886 13.6447 3.32886C13.8816 3.32886 14.1184 3.42096 14.3026 3.5657L14.329 3.59202C14.3684 3.61833 14.3947 3.6578 14.4211 3.68412L14.4474 3.71044C14.5526 3.89465 14.6447 4.13149 14.6447 4.38149Z"
+                    fill="white"
+                  />
+                </svg>
+                <!-- ! inst   -->
+              </a>
+              <a target="_blank" href="https://wa.me/77756415645">
+                <!-- ! whatsapp  -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M15.6688 4.3252C14.1648 2.82656 12.1645 2.00088 10.0335 2C5.64233 2 2.06859 5.55654 2.06682 9.92783C2.06623 11.3252 2.43303 12.6893 3.13021 13.8916L2 18L6.22324 16.8975C7.38691 17.5292 8.69699 17.8621 10.0302 17.8625H10.0336C14.4242 17.8625 17.9983 14.3057 18 9.93418C18.0009 7.81563 17.173 5.82373 15.6688 4.3252ZM10.0335 16.5235H10.0307C8.84261 16.523 7.67736 16.2053 6.66058 15.605L6.4189 15.4621L3.91277 16.1164L4.58169 13.6847L4.4242 13.4354C3.76136 12.3861 3.41134 11.1734 3.41193 9.92832C3.41331 6.29502 6.38377 3.33906 10.0361 3.33906C11.8047 3.33965 13.4673 4.02598 14.7174 5.27158C15.9675 6.51719 16.6556 8.17285 16.655 9.93369C16.6534 13.5673 13.6832 16.5235 10.0335 16.5235ZM13.6655 11.5881C13.4665 11.4889 12.4878 11.0098 12.3053 10.9436C12.123 10.8774 11.9901 10.8445 11.8575 11.0428C11.7248 11.241 11.3433 11.6873 11.2272 11.8194C11.111 11.9517 10.995 11.9683 10.7959 11.869C10.5968 11.7699 9.95545 11.5606 9.19507 10.8857C8.60338 10.3604 8.20391 9.71172 8.08772 9.51348C7.97174 9.31504 8.08674 9.21816 8.17506 9.10918C8.39054 8.84287 8.60632 8.56367 8.67265 8.43154C8.73908 8.29932 8.70582 8.18359 8.65597 8.08447C8.60632 7.98535 8.20822 7.01025 8.04239 6.61348C7.88068 6.22734 7.71671 6.27949 7.59445 6.27344C7.47846 6.26768 7.3457 6.2665 7.21293 6.2665C7.08027 6.2665 6.86459 6.31602 6.68207 6.51445C6.49966 6.71279 5.98548 7.19199 5.98548 8.16709C5.98548 9.14219 6.69875 10.0842 6.79825 10.2164C6.89775 10.3486 8.20194 12.3496 10.1987 13.2076C10.6736 13.4119 11.0444 13.5337 11.3335 13.625C11.8104 13.7758 12.2442 13.7545 12.5873 13.7035C12.9698 13.6466 13.7649 13.2242 13.9309 12.7615C14.0968 12.2987 14.0968 11.9021 14.0469 11.8194C13.9973 11.7368 13.8645 11.6873 13.6655 11.5881Z"
+                    fill="white"
+                  />
+                </svg>
+                <!-- ! whatsapp  -->
+              </a>
+            </div>
+          </div>
+          <div class="first third">
+            <h2>ГРафик работы:</h2>
+            <h2>с 10:00 до 22:00</h2>
+            <h2>во всех филиалах</h2>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="last">
+          <h2>AitmenBarbershop</h2>
+          <div class="lastest">
+            <h3>Aitmenbarbershop</h3>
+            <a noindex nofollow href="https://factum.agency" target="_blank"
+              >Сделано в FACTUM</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ! footer ends  -->
 
     <!--* modal window  -->
     <div
       class="modal fade"
-      id="homeModal"
+      id="modal"
       tabindex="-1"
       role="dialog"
       aria-labelledby="exampleModalCenterTitle"
@@ -231,24 +1552,37 @@
         <div class="modal-content">
           <div class="modal-body">
             <div class="heading">
-              <h1>Оставить заявку</h1>
+              <h2><span>о</span>братная связь</h2>
             </div>
             <form>
-              <input type="text" id="name" placeholder="Имя*" />
-              <input type="tel" id="tel-number" placeholder="Телефон*" />
-              <input type="submit" id="modal-btn" value="Отправить" />
+              <input type="text" id="name" placeholder="Имя:" />
+              <input type="tel" id="tel-number" placeholder="Телефон:" />
+              <input type="email" id="email" placeholder="Почта:" />
+              <textarea
+                name="comment"
+                id="comment"
+                cols="30"
+                rows="10"
+                placeholder="Комментарий..."
+              ></textarea>
+              <input
+                class="custom-btn"
+                type="submit"
+                id="modal-btn"
+                value="Отправить"
+              />
             </form>
 
             <a class="close close-icon" data-dismiss="modal" aria-label="Close">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
-                viewBox="0 0 12 12"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
                 fill="none"
               >
                 <path
-                  d="M11.8334 1.34591L10.6542 0.166748L6.00008 4.82091L1.34591 0.166748L0.166748 1.34591L4.82091 6.00008L0.166748 10.6542L1.34591 11.8334L6.00008 7.17925L10.6542 11.8334L11.8334 10.6542L7.17925 6.00008L11.8334 1.34591Z"
+                  d="M9.19095 8.00001L15.7534 1.43756C16.0822 1.10869 16.0822 0.5755 15.7534 0.246656C15.4245 -0.0822188 14.8913 -0.0822188 14.5624 0.246656L7.99998 6.8091L1.43756 0.246656C1.10868 -0.0822188 0.575499 -0.0822188 0.246656 0.246656C-0.0821873 0.575532 -0.0822185 1.10872 0.246656 1.43756L6.80908 8.00001L0.246656 14.5624C-0.0822185 14.8913 -0.0822185 15.4245 0.246656 15.7534C0.57553 16.0822 1.10872 16.0822 1.43756 15.7534L7.99998 9.19091L14.5624 15.7534C14.8912 16.0822 15.4245 16.0822 15.7533 15.7534C16.0821 15.4245 16.0821 14.8913 15.7533 14.5624L9.19095 8.00001Z"
                   fill="white"
                 />
               </svg>
@@ -266,6 +1600,11 @@
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/tabby@12.0.0/dist/js/tabby.polyfills.min.js"></script>
+    <script>
+      var tabs = new Tabby("[data-tabs]");
+      var tabs2 = new Tabby("[data-tabs-branches]");
+    </script>
     <script>
       AOS.init();
     </script>

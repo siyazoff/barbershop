@@ -129,9 +129,6 @@
   body.noscroll {
     overflow: hidden;
   }
-  section {
-    overflow-x: hidden;
-  }
   .custom-btn {
     padding: 19px 50px;
     font-size: 14px;
@@ -211,5 +208,515 @@
     font-weight: 400;
     color: white;
     margin: 0;
+  }
+  .about {
+    padding: 50px 0;
+  }
+  .about .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about .heading h2 {
+    font-size: 24px;
+    font-family: "Oswald";
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+  }
+  .about .heading p {
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 18px;
+    font-weight: 400;
+    color: white;
+    max-width: 100%;
+  }
+  .about .wrapper-cards {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .about .wrapper-cards .wrapper-img {
+    max-width: 100%;
+    height: 289px;
+  }
+  .about .wrapper-cards .wrapper-order {
+    padding: 16px;
+    border: 2px solid #d1a954;
+    max-width: 100%;
+    position: relative;
+    top: unset;
+    right: unset;
+    order: 3;
+  }
+  .about .wrapper-cards .wrapper-order h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-family: "Oswald";
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .about .wrapper-cards .wrapper-order p {
+    margin-bottom: 0;
+    font-size: 17px;
+    font-family: "Roboto";
+    line-height: 25px;
+    font-weight: 400;
+    color: #333333;
+  }
+  .about .wrapper-cards .wrapper-order .custom-btn {
+    display: none;
+  }
+  .about .wrapper-cards .wrapper-counts {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 153px;
+    gap: 22px;
+    order: 2;
+    margin: 30px 0;
+    margin-left: auto;
+  }
+  .about .wrapper-cards .wrapper-counts h2 {
+    font-size: 24px;
+    font-family: "Oswald";
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  .about .wrapper-cards .wrapper-counts h2 span {
+    font-size: 24px;
+    font-family: "Oswald";
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d1a954;
+  }
+  .services {
+    padding: 0 0 25px 0;
+  }
+  .services .heading {
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .services .heading h2 {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  .services .heading h2 span {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d1a954;
+  }
+  .services .heading .tabby-ul {
+    padding: 17px;
+    border-radius: 2px;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .services .heading .tabby-ul li a {
+    padding: 11px 15px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: "Oswald";
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .services .wrapper {
+    margin-top: 30px;
+  }
+  .services .wrapper .item {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 14px;
+    padding: 20px 0;
+  }
+  .services .wrapper .item .first {
+    order: 2;
+  }
+  .services .wrapper .item .first h2 {
+    font-size: 14px;
+    font-family: "Oswald";
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  .services .wrapper .item .second {
+    order: 3;
+  }
+  .services .wrapper .item .second p {
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 18px;
+    font-weight: 400;
+    color: white;
+  }
+  .services .wrapper .item .second h3 {
+    font-size: 14px;
+    font-family: "Oswald";
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d1a954;
+    margin: 14px 0 0 0;
+  }
+  .services .wrapper .item .third {
+    order: 1;
+  }
+  .services .wrapper .item .third .img-wrapper {
+    max-width: 100%;
+    height: 156px;
+  }
+  .services .wrapper .custom-btn {
+    max-width: 100%;
+    padding: 19px 42px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 2px;
+    font-weight: 700;
+  }
+  .study {
+    padding: 25px 0;
+  }
+  .study .heading h2 {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  .study .heading h2 span {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d1a954;
+  }
+  .study .wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  .study .wrapper .wrapper-video video {
+    max-width: 100%;
+    height: 329px;
+  }
+  .study .wrapper .wrapper-two {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 100%;
+  }
+  .study .wrapper .wrapper-two .first {
+    padding: 16px;
+  }
+  .study .wrapper .wrapper-two .first h2 {
+    font-size: 24px;
+    font-family: "Oswald";
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 16px;
+  }
+  .study .wrapper .wrapper-two .first p {
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 18px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 16px;
+  }
+  .study .wrapper .wrapper-two .first .custom-btn {
+    border: 2px solid white;
+    padding: 12px 50px;
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 18px;
+    font-weight: 700;
+  }
+  .study .wrapper .wrapper-two .second h2 {
+    color: #333333;
+  }
+  .study .wrapper .wrapper-two .second p {
+    color: #333333;
+  }
+  .study .wrapper .wrapper-two .second .custom-btn {
+    background-color: #d1a954;
+    border: 3px solid #d1a954;
+    color: white;
+  }
+  .study .wrapper .wrapper-two .second .custom-btn:hover {
+    background-color: #95783a;
+  }
+  .examples {
+    padding: 25px 0 50px;
+  }
+  .examples .heading h2 {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  .examples .heading h2 span {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d1a954;
+  }
+  .examples .wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .examples .wrapper .examples-swiper {
+    height: 231px;
+  }
+  .examples .btn-cont {
+    position: relative;
+    gap: 11px;
+  }
+  .branches {
+    padding: 50px 0;
+  }
+  .branches .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .branches .heading h2 {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  .branches .heading h2 span {
+    font-size: 22px;
+    font-family: "Oswald";
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d1a954;
+  }
+  .branches .heading .tabby-ul {
+    padding: 17px;
+    border-radius: 2px;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .branches .heading .tabby-ul li a {
+    padding: 11px 15px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: "Oswald";
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .branches .wrapper {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .branches .wrapper .left {
+    margin-top: 0;
+  }
+  .branches .wrapper .left h2 {
+    font-size: 20px;
+    font-family: "Oswald";
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    margin-bottom: 33px;
+  }
+  .branches .wrapper .left h3 {
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 14px;
+    font-weight: 400;
+    color: white;
+  }
+  .branches .wrapper .left h3 svg {
+    width: 20px;
+  }
+  .branches .wrapper .left h3:nth-child(1n) {
+    margin-bottom: 14px;
+  }
+  .branches .wrapper .left a {
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 14px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+  }
+  .branches .wrapper .left a svg {
+    width: 20px;
+  }
+  .branches .wrapper .left a.tel {
+    margin-bottom: 53px;
+  }
+  .branches .wrapper .right {
+    max-width: 100%;
+  }
+  .branches .wrapper .right iframe {
+    height: 249px;
+  }
+  footer {
+    padding: 100px 0 44px;
+  }
+  footer .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    gap: 109px;
+  }
+  footer .wrapper .first {
+    gap: 22px;
+  }
+  footer .wrapper .first a {
+    font-size: 16px;
+    font-family: "Oswald";
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+  }
+  footer .wrapper .first a.mobile-href {
+    display: block;
+  }
+  footer .wrapper .second .social-net {
+    display: flex;
+    gap: 16px;
+  }
+  footer .wrapper .second h2 {
+    font-size: 16px;
+    font-family: "Oswald";
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+  }
+  footer .wrapper .second h2.mobile-href {
+    display: block;
+  }
+  footer .wrapper .second .desktop-href {
+    display: none;
+  }
+  footer .wrapper .third {
+    display: none;
+  }
+  footer .line {
+    margin: 54px 0 26px;
+  }
+  footer .last {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  footer .last h2 {
+    font-size: 45px;
+    font-family: "Oswald";
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.35);
+    text-transform: unset;
+  }
+  footer .last .lastest h3,
+  footer .last .lastest a {
+    font-size: 16px;
+    font-family: "Roboto";
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+  }
+  .modal-body {
+    padding: 50px 16px !important;
+  }
+  .modal-body .heading h2 {
+    font-size: 34px;
+    font-family: "Oswald";
+    line-height: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  .modal-body .heading h2 span {
+    font-size: 34px;
+    font-family: "Oswald";
+    line-height: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d1a954;
+  }
+  .modal-body form input {
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  .modal-body form textarea {
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 16px;
+    font-weight: 400;
+    color: #333333;
+  }
+  .modal-body form input.custom-btn {
+    background-color: #d1a954;
+    margin-top: 30px;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 14px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+  }
+  .thx h1 {
+    font-size: 34px;
+    font-family: "Oswald";
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  .button-fix {
+    width: 80px;
+    height: 80px;
   }
 }/*# sourceMappingURL=responsive.css.map */

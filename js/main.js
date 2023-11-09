@@ -52,6 +52,38 @@ $(document).ready(function () {
     hamb.classList.remove("active");
     body.classList.remove("noscroll");
   }
+
+  $(".load-more").on("click", function () {
+    const $activeWrapper = $(".services .wrapper[hidden!='hidden']");
+
+    if ($activeWrapper.length > 0) {
+      const $newsItems = $activeWrapper.find(".item");
+      const $hiddenItems = $newsItems.not(":visible");
+
+      if ($hiddenItems.length > 0) {
+        $hiddenItems.slideDown().css("display", "grid");
+        $(this).html("Скрыть");
+      } else {
+        $newsItems.slice(4).slideUp();
+        $(this).html("Показать еще");
+      }
+    }
+  });
+
+  $(".branches .tabby-ul a").on("click", function () {
+    let $activeWrapper = $(".branches .wrapper[hidden!='hidden']").attr("id");
+    const $branches = $(".branches");
+
+    if ($activeWrapper === "first") {
+      $branches.css("background-color", "#23A04D");
+    } else if ($activeWrapper === "second") {
+      $branches.css("background-color", "#AC2C43");
+    } else if ($activeWrapper === "third") {
+      $branches.css("background-color", "#2C39AC");
+    } else if ($activeWrapper === "fourth") {
+      $branches.css("background-color", "#000");
+    }
+  });
 });
 
 $("input[id='tel']").mask("+7 (999) 999-99-99");
