@@ -115,6 +115,10 @@ footer {
   background-color: #333333;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 .cont {
   width: 100%;
   max-width: 1340px;
@@ -123,12 +127,13 @@ footer {
 }
 
 .navbar {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
   height: 75px;
   background: transparent;
+  background: rgba(51, 51, 51, 0.35);
 }
 
 .navbar__wrap {
@@ -377,6 +382,13 @@ header {
   color: white;
   margin: 0;
   margin-top: 63px;
+}
+.about .heading h2 span {
+  font-size: 35px;
+  font-family: "Oswald";
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .about .heading p {
   margin: 0;
@@ -726,6 +738,7 @@ header {
   background-color: #23a04d;
   padding: 75px 0;
   transition: all 0.5s;
+  overflow: hidden;
 }
 .branches .heading {
   display: flex;

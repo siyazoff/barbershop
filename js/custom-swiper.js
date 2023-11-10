@@ -24,6 +24,10 @@ const exampleSwiper = new Swiper(".examples-swiper", {
     nextEl: ".ex-btn-next",
     prevEl: ".ex-btn-prev",
   },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",

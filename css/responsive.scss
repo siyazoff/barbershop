@@ -251,6 +251,9 @@ $blue: #2c39ac;
         @include font-title(24px, 24px, 700);
         color: white;
         margin: 0;
+        span {
+          @include font-title(24px, 24px, 700);
+        }
       }
 
       p {

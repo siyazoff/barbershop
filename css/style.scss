@@ -143,6 +143,10 @@ footer {
   background-color: $black;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 .cont {
   width: 100%;
   max-width: 1340px;
@@ -150,12 +154,13 @@ footer {
   margin-right: auto;
 }
 .navbar {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
   height: 75px;
   background: transparent;
+  background: rgba(51, 51, 51, 0.35);
 }
 
 .navbar__wrap {
@@ -386,6 +391,10 @@ header {
       color: white;
       margin: 0;
       margin-top: 63px;
+
+      span {
+        @include font-title(35px, 28px, 700);
+      }
     }
 
     p {
@@ -730,6 +739,7 @@ header {
   background-color: $green;
   padding: 75px 0;
   transition: all 0.5s;
+  overflow: hidden;
 
   .heading {
     display: flex;
